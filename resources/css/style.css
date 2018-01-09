@@ -1,0 +1,143 @@
+/* General */
+
+html {
+  font-size: 18px;
+  background-color: white;
+}
+
+body {
+  font-family: Helvetica;
+  line-height: 1.4;
+}
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+/* Header and Nav */
+
+header {
+  background-color: cadetblue;
+  color: white;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 1rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+  justify-content: space-between;
+  background-color: cadetblue;
+  color: white;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+nav ul {
+  margin-right: 1rem;
+}
+
+nav li {
+  display: inline;
+  padding: 0 1rem;
+}
+
+header .flex {
+  justify-content: flex-end;
+}
+
+.headline {
+  background-color: white;
+  display: inline-block;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  color: black;
+}
+
+h1 {
+  font-weight: bold;
+  line-height: 1.2;
+  font-size: 2rem;
+}
+
+/* Icons */
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+.service img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.service img.paper{
+  width: 3.5rem;
+}
+
+/* Info */
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 5rem;
+}
+
+.title {
+  font-weight: bold;
+  background-color: cadetblue;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  max-width: 10rem;
+}
+
+ p {
+  padding-top: 1rem;
+}
+
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  padding: 4rem 2rem;
+}
+
+footer img{
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
